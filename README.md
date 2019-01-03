@@ -1,6 +1,7 @@
 # Endava Widgets Challenge
 
 [![forthebadge](https://forthebadge.com/images/badges/approved-by-george-costanza.svg)](http://forthebadge.com)
+
 Build some Endava themed widgets with HTML and CSS
 
 ### Getting Started
