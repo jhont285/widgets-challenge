@@ -1,90 +1,110 @@
 body {
-    font-family: "Ubuntu", monospace;
-    font-size: 16px;
+  font-family: "Ubuntu", monospace;
+  font-size: 16px;
 }
 
 .container {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    background-color: #444f51;
-    border-radius: 0.2rem;
-    overflow: hidden;
+.navbar-nav {
+  background-color: #444f51;
+  border-radius: 0.2rem;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
 }
 
-nav ul li {
-    float: left;
-    color: white;
-    padding-right: 1rem;
-    border-bottom: 0.2rem solid #444f51;
-    border-top: 0.2rem solid #444f51;
+.nav-item {
+  float: left;
+  color: white;
+  padding-right: 1rem;
+  border-bottom: 0.2rem solid #444f51;
+  border-top: 0.2rem solid #444f51;
 }
 
-nav ul li i {
-    padding: 1rem;
+.nav-item i {
+  padding: 1rem;
 }
 
-
-nav ul li.dropdown {
-    float: right;
-    padding-right: 0;
+.nav-item:hover {
+  color: #444f51;
+  background-color: #bdbec0;
+  border-bottom: 0.2rem solid #dd7500;
+  border-top: 0.2rem solid #bdbec0;
 }
+
+.navbar-logo {
+  float: right;
+}
+
+.navbar-brand img {
+  border-radius: 50%;
+  border: 0.2rem solid #dd7500;
+  margin: 0.5rem 0.4rem 0.4rem;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.dropdown {
+  float: right;
+  padding-right: 0;
+}
+
 
 .dropdown a {
-    padding: 0;
-    text-decoration: none;
-    color: white;
-    padding-left: 1rem;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+  padding-left: 1rem;
 }
 
 
 .dropdown-menu {
-    display: none;
-    position: absolute;
-    background-color: #444f51;
-    z-index: 1;
-    border-radius: 0 0.2rem;
-    top: 4.4rem;
+  display: none;
+  position: absolute;
+  background-color: #444f51;
+  z-index: 1;
+  border-radius: 0 0.2rem 0.2rem 0.2rem;
+  top: 4.4rem;
 }
 
 .dropdown-menu a {
-    display: block;
-    color: white;
-    padding: 1rem;
-    text-decoration: none;
+  display: block;
+  color: white;
+  padding: 1rem;
+  text-decoration: none;
 
 }
 
 .dropdown:hover .dropdown-menu {
-    display: block;
+  display: block;
 
 }
 
 .dropdown-item:hover {
-    background-color: #bdbec0;
-    color: black;
+  background-color: #bdbec0;
+  border-radius: 0 0.2rem 0.2rem 0.2rem;
+  color: black;
 }
 
 
-nav ul li:hover {
-    color: #444f51;
-    background-color: #bdbec0;
-    border-bottom: 0.2rem solid #dd7500;
-    border-top: 0.2rem solid #bdbec0;
+.badge {
+  border-radius: 50%;
+  color: white;
+  float: right;
+  font-weight: bold;
+  line-height: 1.3em;
+  width: 1.3em;
+  height: 1.3em;
+  margin-top: 0.3rem;
+  text-align: center;
+  font-size: 0.8rem;
 }
 
-.navbar-brand {
-    float: right;
-}
-
-.navbar-brand img {
-    border-radius: 50%;
-    border: 0.2rem solid #dd7500;
-    margin: 0.5rem 0.4rem 0.4rem;
+.badge-danger {
+  background-color: #a03033;
 }
 
