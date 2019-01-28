@@ -1,6 +1,7 @@
 body {
   font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
+  font-weight: 300;
 }
 
 .container {
@@ -10,8 +11,9 @@ body {
 }
 
 .col-md-4 {
-  width: 30%;
+  width: 32%;
   float: left;
+  margin: 0.5rem;
 }
 
 .col-md-2 {
@@ -24,12 +26,13 @@ body {
   float: left;
 }
 
-
 .navbar-nav {
   background-color: #444f51;
   border-radius: 0.2rem;
   list-style-type: none;
   padding: 0;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
   overflow: hidden;
 }
 
@@ -149,6 +152,10 @@ body {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .badge-pill {
   border-radius: 0.5rem;
   margin: 0;
@@ -172,8 +179,109 @@ body {
 }
 
 .line-separate-top {
-  border-top: 1px solid #bdbec0;
+  border-top: 1px solid rgba(189, 190, 192, 0.3);
 }
+
+.card {
+  background-color: #444f51;
+  border-radius: 0.2rem;
+}
+
+.card-icon-plus {
+  color: white;
+  padding: 0.5rem;
+}
+
+.rounded-img {
+  border-radius: 50%;
+}
+
+.border-img-endava {
+  border: 0.4rem solid #dd7500;
+  width: 50%;
+}
+
+.card-body {
+  color: white;
+}
+
+.card-body h1 {
+  font-size: 1.5rem;
+}
+
+.button-comment {
+  border-top: 0.2rem solid #a03033;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+section .card .card-body .endava-buttons{
+  display: flex;
+  justify-content: space-between;
+}
+section .card .card-body .endava-buttons div{
+  width: 33%;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+section .card .card-body .endava-buttons div:nth-child(1){
+  border-top: 2px solid #a03033;
+}
+section .card .card-body .endava-buttons div:nth-child(2){
+  border-top: 2px solid #0092dd;
+  border-left: 1px solid rgba(189, 190, 192, 0.3);
+  border-right: 1px solid rgba(189, 190, 192, 0.3);
+}
+section .card .card-body .endava-buttons div:nth-child(3){
+  border-top: 2px solid #dd7500;
+}
+section .card .card-body .endava-buttons div *{
+  padding: 0 0.5rem;
+}
+
+section .card .card-body p {
+  padding: 1rem;
+  margin: 0;
+}
+
+section .calendar {
+  color: white;
+  text-align: center;
+  background-color: #444f51;
+  border-radius: 0.2rem;
+  padding-top: 0;
+  padding-bottom: 2rem;
+}
+
+section .calendar p {
+  font-size: 8rem;
+  padding: 0;
+  margin: 0;
+}
+
+section .calendar .button-primary {
+  background-color: #0092dd;
+  width: 50%;
+  border-radius: 0.2rem;
+  padding: 1rem;
+  font-weight: 900;
+  margin: auto;
+}
+
+section .calendar .day {
+  background-color: #363e40;
+  height: 2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+section .calendar .day div:nth-child(2) {
+  font-size: 1.5rem;
+}
+
 
 
 
