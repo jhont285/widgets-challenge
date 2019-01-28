@@ -1,5 +1,5 @@
 body {
-  font-family: "Ubuntu", monospace;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
 }
 
@@ -8,6 +8,22 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+.col-md-4 {
+  width: 30%;
+  float: left;
+}
+
+.col-md-2 {
+  width: 16%;
+  float: left;
+}
+
+.col-md-8 {
+  width: 68%;
+  float: left;
+}
+
 
 .navbar-nav {
   background-color: #444f51;
@@ -81,7 +97,6 @@ body {
 
 .dropdown:hover .dropdown-menu {
   display: block;
-
 }
 
 .dropdown-item:hover {
@@ -104,7 +119,63 @@ body {
   font-size: 0.8rem;
 }
 
-.badge-danger {
+.danger {
   background-color: #a03033;
 }
+
+.nav {
+  background-color: #444f51;
+  color: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 0.2rem;
+}
+
+.nav-item-aside {
+  display: block;
+  text-decoration: none;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  height: 1rem;
+}
+
+.active {
+  background-color: #dd7500;
+  border-radius: 0.2rem 0.2rem 0 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.badge-pill {
+  border-radius: 0.5rem;
+  margin: 0;
+  width: 2rem;
+}
+
+.bg-secondary {
+  background-color: #bdbec0;
+}
+
+.text-primary {
+  color: #444f51;
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+.line-separate-bottom {
+  border-bottom: 2px solid #363e40;
+}
+
+.line-separate-top {
+  border-top: 1px solid #bdbec0;
+}
+
+
+
+
 
