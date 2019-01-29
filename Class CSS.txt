@@ -1,0 +1,75 @@
+# Capacitation ENDAVA CSS
+
+
+Alpha: Opacidad
+
+HSL: Human logic - Model
+Computer algorithms 
+
+Properties Text
+* Color
+* Text Align
+* Text Decoration
+* Text Indent
+* Letter Spacing
+* Line Height
+* Word Spacing
+
+All html elements can be considered as boxes. 
+
+Box Model
+
+* Content
+* Padding
+* Border
+* Margin 
+
+
+Position
+
+* fixed: fix the box in the screen, root
+* absolute: dejar en donde esta el padre
+* relative: dejar en donde esta mi elemento
+* z-index
+
+Units & Align
+
+Absolute lenghts
+
+* px
+
+Relative lenghts
+
+em = 16px respecto to father
+rem respect to the body
+
+Contenedores
+* vh  
+* vw
+
+Selectors
+
+universal = *
+type selector
+id = #
+class = .
+attribute = [att=?] 
+pseudo-elements
+	:before
+	:after
+	:first-element
+	:first-line
+
+pseudo-classes
+	:hover
+	:visited
+	:nth
+
+> son
++ silbins
+~ ...
+
+Conflicts
+
+mdn
+w3e
