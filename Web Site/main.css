@@ -38,7 +38,7 @@ body {
 
 .nav-item-aside:hover {
   background-color: #bdbec0;
-  color: white;
+  color: #363e40;
 }
 
 .nav-item-aside:hover div:nth-child(3) div {
